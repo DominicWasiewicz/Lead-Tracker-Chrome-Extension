@@ -14,14 +14,18 @@ input {
 }
 
 button {
-   display: block;
    margin-top: 5px;
    color: white;
    background-color: #5f9341;
    border-color: #5f9341;
-   border: none;
-   padding: 10px 20px;       /* y-axis, x-axis*/
+   border: 1px solid #5f9341;
+   padding: 10px 20px;                        /* y-axis, x-axis*/
    font-weight: bold;
+}
+
+#delete-btn {
+   background-color: white;
+   color: #5f9341;
 }
 
 ul{
